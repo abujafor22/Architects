@@ -13,6 +13,7 @@
      font-size: 1rem;
      line-height: 26px;
      margin-bottom: 100px;
+     max-width: 542px;
 }
 .some-card{
     display: flex;
@@ -21,7 +22,7 @@
 .facts-card{
         border: 1px solid gold;
         padding: 50px;
-        text-align: center;
+        text-align: center; 
 }
 .facts-card img{
     max-width: 100%;
