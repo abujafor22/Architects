@@ -1,0 +1,38 @@
+.some-facts{
+     margin-top: 130px;
+     
+}
+.some-info h1{
+     font-size: 3rem;
+     font-weight: 700;
+     margin-bottom: 24px;
+     color: #131313;
+}
+.some-info p{
+     color: #727272;
+     font-size: 1rem;
+     line-height: 26px;
+     margin-bottom: 100px;
+}
+.some-card{
+    display: flex;
+    justify-content: space-around;
+}
+.facts-card{
+        border: 1px solid gold;
+        padding: 50px;
+        text-align: center;
+}
+.facts-card img{
+    max-width: 100%;
+}
+.facts-card h2{
+    font-size: 3rem;
+    color: #131313;
+    font-weight: 600;
+}
+.facts-card h5{
+    color: #727272;
+    font-size: 1.5rem;
+    font-weight: 600;
+}

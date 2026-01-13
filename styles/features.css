@@ -43,4 +43,25 @@
 }
 .feature-img img{
     max-width: 100%;
+}.feature-img{
+    position: relative;
+}
+.feature-exparience{
+    background-color: #FF900E;
+    max-width: 342px;
+    height: 200px;
+    padding: 45px 42px;
+    border-radius: 8px;
+    text-align: center;
+    position: absolute;
+    bottom: 33px;
+    left: -85px;
+}
+.feature-exparience h1{
+    color: #FFFFFF;
+    font-size: 4rem;
+}
+.feature-exparience p{
+    color: #FFFFFF;
+    font-size: 1.5rem;
 }
