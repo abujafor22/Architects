@@ -1,0 +1,45 @@
+.teams{
+    margin-top: 130px;
+    align-items: center;
+    justify-content: center;
+}
+.teams-member{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.trems-info{
+    margin-left: 73px;
+    max-width: 537px;
+}
+.trems-info h1{
+  font-size: 3rem;
+  font-weight: 700;
+   margin-bottom: 24px;
+}
+#teams-info-1{
+    font-weight: 400;
+    font-size: #727272;
+}
+#teams-info-3{
+    color:#FF900E;
+}
+.trems-info p{
+    color: #727272;
+    line-height: 26px;
+    font-size: 1rem;
+    margin-bottom: 32px;
+}
+@media screen and (max-width:576px) {
+    .teams{
+      flex-direction: column;
+}
+.teams-member{
+    grid-template-columns: repeat(1, 1fr);
+}
+.trems-info{
+    margin-left: 20px;
+    margin-top: 3rem;
+    text-align: center; 
+}
+}

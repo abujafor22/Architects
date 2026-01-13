@@ -1,0 +1,25 @@
+.bannar{
+  
+}
+.bannar-tittle{
+   max-width: 850px;
+   margin: 0 auto;
+   text-align: center;
+   padding: 2rem 0;
+}
+.bannar-tittle h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+.bannar-tittle p{
+    color: #727272;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+.bannar-btn{
+    margin-bottom: 1.5rem;
+}
+.bannar img{
+    max-width: 100%;
+}
