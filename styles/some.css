@@ -16,7 +16,6 @@
      max-width: 542px;
 }
 .some-card{
-    display: flex;
     justify-content: space-around;
 }
 .facts-card{
@@ -36,4 +35,13 @@
     color: #727272;
     font-size: 1.5rem;
     font-weight: 600;
+}
+@media screen and (max-width:576px){
+    .some-card{
+   flex-direction: column;
+   gap: 10px;
+}
+.some-info{
+    text-align: center;
+}
 }

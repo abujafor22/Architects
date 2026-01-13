@@ -28,7 +28,7 @@
     padding: 30px 42px 30px 30px;
     background-color: #FFFFFF;
     border-radius: 8px;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .feature-card h5{
     color: #131313;
@@ -43,7 +43,8 @@
 }
 .feature-img img{
     max-width: 100%;
-}.feature-img{
+}
+.feature-img{
     position: relative;
 }
 .feature-exparience{
@@ -64,4 +65,9 @@
 .feature-exparience p{
     color: #FFFFFF;
     font-size: 1.5rem;
+}
+@media screen and (max-width:576px) {
+    .feature{
+   flex-direction: column;
+}
 }
